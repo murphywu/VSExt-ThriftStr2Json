@@ -1,0 +1,62 @@
+{
+  "name": "thrift-string-to-json",
+  "displayName": "tstring2json",
+  "description": "将thrift对象的toString输出转换为json格式文本",
+  "version": "0.0.1",
+  "publisher": "wutao",
+  "icon": "images/icon.png",
+  "keywords": [
+    "thrift",
+    "json",
+    "convert",
+    "string",
+    "to",
+    "json"
+  ],
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "thrift-string-to-json.contextMenuConvert",
+        "title": "转换 Thrift 为 JSON"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection",
+          "command": "thrift-string-to-json.contextMenuConvert",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
