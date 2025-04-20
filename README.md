@@ -21,8 +21,7 @@ TypeA(fileda:4, filedb:TypeB(filedc:"bbb")), discount:Discount(filedm:"dddd"), g
     "filedc": "bbb"
   }
 }
-
-
+```
 
 ### 使用方法
 
@@ -32,9 +31,11 @@ TypeA(fileda:4, filedb:TypeB(filedc:"bbb")), discount:Discount(filedm:"dddd"), g
 
 使用示例：
 
+![使用示例](docs/mwl3k-1ddez.gif)
+
 ## 版本历史
 
-### 0.0.1
+### 0.1.1
 
 - 初始版本发布
 - 支持基本的 Thrift toString 到 JSON 的转换功能
@@ -42,4 +43,3 @@ TypeA(fileda:4, filedb:TypeB(filedc:"bbb")), discount:Discount(filedm:"dddd"), g
 ## 许可证
 
 MIT
-```
