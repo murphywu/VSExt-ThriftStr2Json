@@ -2,7 +2,7 @@
   "name": "thrift-string-to-json",
   "displayName": "tstring2json",
   "description": "将thrift对象的toString输出转换为json格式文本",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "wutao",
   "repository": {
     "type": "git",
