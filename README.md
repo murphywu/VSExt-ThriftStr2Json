@@ -31,7 +31,7 @@ TypeA(fileda:4, filedb:TypeB(filedc:"bbb")), discount:Discount(filedm:"dddd"), g
 
 使用示例：
 
-![使用示例](docs/mwl3k-1ddez.gif)
+![使用示例](docs/user_guide.gif)
 
 ## 版本历史
 
