@@ -4,6 +4,11 @@
   "description": "将thrift对象的toString输出转换为json格式文本",
   "version": "0.0.1",
   "publisher": "wutao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murphywu/VSExt-ThriftStr2Json"
+  },
+  "homepage": "https://github.com/murphywu/VSExt-ThriftStr2Json/blob/main/README.md",
   "icon": "images/icon.png",
   "keywords": [
     "thrift",
