@@ -32,7 +32,7 @@
     "commands": [
       {
         "command": "thrift-string-to-json.contextMenuConvert",
-        "title": "转换 Thrift 为 JSON"
+        "title": "转换为JSON"
       }
     ],
     "menus": {
